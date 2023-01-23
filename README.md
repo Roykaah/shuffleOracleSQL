@@ -7,3 +7,5 @@
 <h1>How to use it</h1>
 <p>After creating these funcitions in your database, run the following code:
 <p>BEGIN EXECUTE IMMEDIATE f_shuffle_unique( name_of_schema_of_the_table, table_name , p_column_name); END;</p>
+<br>
+<p>REQUIREMENTS: you must have grant select in all_cons_columns view</p>
